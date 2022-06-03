@@ -23,6 +23,10 @@ A deligent and well organized *engineer technologist* with 7+ years of experienc
 ===
 *I don't have any experience in IT excluding learning informatics in school and university*
 
+## Languages
+Russian, Belarusian - native
+English - intermediate
+
 ## Achivements
 I have passed registration task on Codewars!)
 
