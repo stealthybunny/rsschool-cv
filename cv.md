@@ -10,11 +10,11 @@
 ## About me:
 A deligent and well organized *engineer technologist* with 7+ years of experience working with pastics, machines, people and CAD-software.
 
-##Education:
+## Education:
 **Belarusian State Technological University**                **2015**
 *Technology and the Processing of Polymers and Composites*
 
-##Experience:
+## Experience:
 **CJSC “VITEX”**                                             **2015-current**
 
 * Develop technical documentation
