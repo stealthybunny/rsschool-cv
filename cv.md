@@ -1,5 +1,5 @@
-Peter Zaychik
-Contact me:
--phone:
--email:
--discord:
+        Peter Zaychik
+    Contact me:
+        -phone:
+        -email:
+        -discord:
