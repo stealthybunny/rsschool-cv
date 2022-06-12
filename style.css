@@ -12,16 +12,16 @@ html {
     padding: 0px;
   }
   .header{
-    width: 100%;
-    margin: 0px 10px;   
+    display: flex;
+    justify-content: flex-end;  
     background-color:  rgba(255, 0, 0, 0.856);
   }
   .header-left{
-    width: 45%;
+    width: 40%;
   }
   .header-right{
     position: relative;
-    width: 55%;
+    width: 60%;
     height:40%
   }
   .portrait-box{
@@ -48,3 +48,6 @@ html {
     justify-content: flex-end;
     align-items: center;
   }
+.navigation-item{
+    margin:20px;
+}
