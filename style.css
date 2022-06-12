@@ -1,1 +1,50 @@
-someting 
+html {
+    scroll-behavior: smooth;
+  }
+.central{
+    max-width: 1280px;
+    margin: 0 auto;
+   
+}
+*{
+    background-color: rgba(114, 108, 108, 0.692);
+    margin: 0px;
+    padding: 0px;
+  }
+  .header{
+    width: 100%;
+    margin: 0px 10px;   
+    background-color:  rgba(255, 0, 0, 0.856);
+  }
+  .header-left{
+    width: 45%;
+  }
+  .header-right{
+    position: relative;
+    width: 55%;
+    height:40%
+  }
+  .portrait-box{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgba(193, 192, 201, 0.658);
+    position: relative;
+  }
+.portrait{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.contacts{
+    background-color: aqua;
+}
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
