@@ -11,17 +11,12 @@ html {
     margin: 0px;
     padding: 0px;
   }
-  .header{
-    display: flex;
-    justify-content: flex-end;  
-    background-color:  rgba(255, 0, 0, 0.856);
-  }
   .header-left{
-    width: 40%;
+    width: 25%;
   }
   .header-right{
     position: relative;
-    width: 60%;
+    width: 75%;
     height:40%
   }
   .portrait-box{
@@ -43,11 +38,43 @@ html {
 .contacts{
     background-color: aqua;
 }
-.navigation-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-.navigation-item{
-    margin:20px;
+.nav {
+  width:1280px;
+  margin: 0 auto;
+}
+
+.nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+.nav-list{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:rgb(242, 245, 100);
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#010301;
 }
