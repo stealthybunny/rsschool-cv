@@ -1,0 +1,122 @@
+html{
+  scroll-behavior: smooth;
+  background-color: antiquewhite;
+}
+*{
+  box-sizing: border-box;
+}
+.nav{
+  background-color: #AD6004;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item{
+  padding: 20px;
+}
+.nav-list a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blanchedalmond;
+  font-size: 18px;
+}
+main{
+  max-width: 1280px;
+  display: flex;
+  color: #523109;
+}
+.left-col{
+  padding-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 45%;
+  max-height: 100%;
+}
+.cent-col{
+  min-width: 10%;
+}
+.right-col{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 40%;
+  max-height: 100%;
+}
+.right-col-bottom{
+  padding-left: 40px;
+  padding-top: 80px;
+}
+pre{
+  font-size: 20px;
+  color: #874316;
+}
+.portrait{
+  height: 150px;
+  width: 150px;
+  border: 7px solid #AD6004;
+  border-radius: 50%;  
+}
+.footer{
+  background-color: #AD6004;
+  padding: 20px; 
+  min-height: 40px; 
+  color: blanchedalmond;
+  font-size: 20px;
+  max-height: 90px;
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: blanchedalmond;
+}
+.rss-logo{
+  padding-left: 20px;
+  width: 100px;
+  height: 38px;
+  background-image: url(https://rs.school/images/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-git{
+  padding-left: 40px;
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 20px;
+}
+.p2022{
+  padding-left: 40px;
+  color: blanchedalmond;
+  font-size: 20px;
+}
+body{
+  margin: 10px auto;
+  width: 1028px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.contacts-list{
+  list-style: none;
+}
+.contact-list-item{    
+  font-size: 18px;
+  line-height: 1.7;
+}
+.contact-list-a{
+  text-decoration: none;
+  color: #874316;
+}
+h1{
+  margin-bottom: 0px;
+}
+h3{
+  margin-top: 0px;
+}
+
+
