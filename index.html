@@ -4,56 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Peter Zaichyk</title>
+    <title>Maket</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body">
-    <div class="wrapper">
-    <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="">Contacts</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Languages</a></li>
-                <li><a href="">Achivements</a></li>
-            </ul>
-        </nav>
-            <div class="header-left">
-            <img class="portrait" src="./assets/img/Photo.jpg" alt="Photo">
-            <div class="name">
-                <h1>Peter Zaichyk</h1>
-                <h2>Front-end developer</h2> 
-            </div>
-            </div>
-            <div class="header-right">
-                <h2 class="contacts-headliner">Contacts:</h2>
-                <ul class="contacts-list">
-                    <li>phone: +375291388589</li>
-                    <li>email: zaichikpetr@gmail.com</li>
-                    <li>discord: Peter Zaichyk#3275</li>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">                  
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#about_me">About me</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#experience">Experience</a></li>
+                    <li class="nav-item"><a href="#languages">Languages</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
                 </ul>
-            </div>
+            </nav>
         </header>
-    <main class="main">
-        <div><section>
-            <h2>About me</h2>
-            <p>A deligent and well organized engineer technologist with 7+ years of experience working with pastics, machines, people and CAD-software.</p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <p></p>
-        </section>
-        <section>Experience</section>
-        <section>Achivements</section>
+        <main class="main">
+            <div class="left-col">
+                <div class="left-col-top">
+                    <img class="portrait" src="./assets/img/Photo.jpg"  alt="Photo">
+                    <h1>Peter Zaichyk</h1>
+                    <h3>Front-end developer</h3> 
+                    <section id="about_me">
+                        <h2>About me</h2>
+                        <p>A well-organized engineer technologist with 7+ years of experience working with plastics, machines, people and CAD-software. 
+                        <br>I am 29. I love sports: cycling, hiking, gym. I am curious enough and I love to try something new. And this time I decided to try Front-end😊
+                        </p>
+                    </section>
+                </div>
+                <div class="left-col-bottom">
+                    <section id="education">
+                        <h2>Education</h2>
+                        <p>Belarusian State Technological University:
+                        <br><em>Technology and the Processing of Polymers and Composites</em> - 2015</p>
+                    </section>
+                    <section id="experience">
+                        <h2>Experience</h2>
+                        <p>CJSC “VITEX"
+                        <br>2015 - now</p>
+                    </section>
+                </div>
+            </div>
+            <div class="cent-col"></div>
+            <div class="right-col">
+                <div class="right-col-top">
+                    <ul class="contacts-list" id="contacts">
+                        <li class="contact-list-item">Phone: +375 29 138-8589</li>
+                        <li class="contact-list-item">Email: zaichikpetr@gmail.com</li>
+                        <li class="contact-list-item">Discord: Peter Zaichyk#3275</li>
+                        <li class="contact-list-item"><span>Github:</span><a href="https://github.com/stealthybunny" class="contact-list-a" target="_blank"> stealthybunny</a></li>
+                    </ul>
+                </div>
+                <div class="right-col-bottom">
+                    <section id="languages">
+                        <h2>Languages</h2>
+                        <p>Russian - native;<br> English - intermediate.</p>                      
+                    </section>
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <p>HTML, CSS - <em>but I still have a long way to go...</em></p>
+                    </section>
+                    <section id="code">
+                        <h2>Code</h2>
+                        <pre>
+function multiply(a,b){
+return a*b
+};
+                        </pre>
+                    </section>
+                </div>
+            </div>
+        </main>        
     </div>
-        
-    </main>
-    
-</div> 
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <a href="https://rs.school/js-stage0/" target="_blank" class="rss-logo"></a>              
+            <a href="https://github.com/stealthybunny" target="_blank" class="footer-git">stealthybynny</a>
+            <p class="p2022">2022</p>
+        </div>            
+    </footer>
 </body>
-<footer class="footer">
-</footer>
-</div>
-</>
+</html>
